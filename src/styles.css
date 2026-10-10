@@ -1,0 +1,78 @@
+.App {
+    font-family: Helvetica;
+}
+
+.BigContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #0a0f20;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    border: 5px solid rgb(51, 0, 233);
+    border-radius: 20px
+}
+
+.HeaderRow {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.Body {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.Logo {
+    flex-shrink: 0;
+    width: 200px;
+    height: 150px;
+
+
+}
+
+.Logo img {
+    width: 200px;
+    height: 150px;
+    display: block;
+    object-fit: cover;
+
+
+}
+
+.Title {
+    flex: 1;
+    text-align: center;
+    border: 2px solid rgb(158, 147, 199);
+    border-radius: 20px
+}
+
+.Attributes {
+    display: flex;
+    flex-direction: column;
+    border: 5px ridge rgb(73, 57, 91);
+    align-items: center;
+    gap: 20px;
+}
+
+.attRow {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border: 1px solid blue;
+    padding: 2px;
+    border-radius: 3px;
+}
+
+.TextInput {
+    border: 2px dashed rgb(79, 78, 78);
+    width: 100%;
+    box-sizing: border-box;
+    font-family: inherit;
+    resize: vertical;
+    background-color: transparent;
+    color: whitesmoke;
+}
